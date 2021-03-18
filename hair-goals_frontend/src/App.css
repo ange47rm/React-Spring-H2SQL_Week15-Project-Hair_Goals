@@ -1,0 +1,15 @@
+.apphouse {
+  background-image:  url('./assets/hare.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  position: relative;
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 450px) {
+  .apphouse {
+    background-image:  url('./assets/auburnhorse.jpg');
+  }
+}
